@@ -1,10 +1,20 @@
-import './App.css';
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Works from './components/Works';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-     welcome to my website
-    </div>
+    <main className="container">
+      <Header />
+      <Home />
+      <About />
+      <Works />
+      <Contact />
+      <Footer />
+    </main>
   );
 }
 
