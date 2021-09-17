@@ -1,47 +1,43 @@
-import React from 'react'
-import img from '../assets/capstone.png'
+import React from 'react';
+import capstone from '../assets/capstone.png';
 import Work from './Work';
 
 const Works = () => {
+  const description =
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. ';
   return (
     <div>
-      <h3>Best of my works</h3>
+      <h3>Some of my works</h3>
       <div className="works row">
         <Work
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        repudiandae sed. Ad excepturi, aliquid consequuntur dolore nesciunt"
-          img={img}
+          description={description}
+          img={capstone}
         />
         <Work
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        repudiandae sed. Ad excepturi, aliquid consequuntur dolore nesciunt"
-          img={img}
+          description={description}
+          img={capstone}
         />
         <Work
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        repudiandae sed. Ad excepturi, aliquid consequuntur dolore nesciunt"
-          img={img}
+          description={description}
+          img={capstone}
         />
       </div>
       <div className="works row">
         <Work
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        repudiandae sed. Ad excepturi, aliquid consequuntur dolore nesciunt"
-          img={img}
+          description={description}
+          img={capstone}
         />
         <Work
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        repudiandae sed. Ad excepturi, aliquid consequuntur dolore nesciunt"
-          img={img}
+          description={description}
+          img={capstone}
         />
         <Work
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        repudiandae sed. Ad excepturi, aliquid consequuntur dolore nesciunt"
-          img={img}
+          description={description}
+          img={capstone}
         />
       </div>
     </div>
   );
-}
+};
 
-export default Works
+export default Works;

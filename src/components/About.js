@@ -1,18 +1,22 @@
-import React from 'react'
+import React from 'react';
+import fullstack from '../assets/fullstack.png';
+import frontend from '../assets/frontend.png';
+import backend from '../assets/backend.jpeg';
 
 const About = () => {
   return (
-    <div id="about">
+    <div className="about">
       <h3>About Me</h3>
-      <p className="about">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        repudiandae sed. Ad excepturi, aliquid consequuntur dolore nesciunt
-        quasi illum unde eaque quod nihil quos fuga possimus aspernatur dolores
-        quas esse optio nemo nulla sunt tempora? Tempora aliquid exercitationem
-        ex placeat.
-      </p>
+      <div className="col">
+        <img src={frontend} className="rounded float-start mt-3" alt="..." />
+        <img src={fullstack} className="rounded float-end mt-4" alt="..." />
+        {/* <img className="img-thumbnail frontend" alt="..."></img> */}
+        {/* <img src={fullstack} className="img-thumbnail fullstack" alt="..."></img> */}
+        {/* <img src={backend} className="img-thumbnail backend" alt="..."></img> */}
+      </div>
+      <img src={backend} className="rounded mx-auto row mt-5" alt="..." />
     </div>
   );
-}
+};
 
-export default About
+export default About;

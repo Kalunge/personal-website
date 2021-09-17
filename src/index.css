@@ -9,10 +9,11 @@
 
 .descp {
   color: aqua;
+  font-family: sans-serif;
 }
 
 .about {
-  color: rgba(165, 42, 42, 0.685);
+  height: 70vh;
 }
 
 h3 {
@@ -44,3 +45,38 @@ footer {
   color: aliceblue;
   position: relative;
 }
+
+.home-img {
+  padding: 5px;
+  width: 70%;
+  height: 90%;
+  border: none;
+}
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: solid 1px cyan; */
+  height: 70vh;
+  margin-top: 10%;
+}
+
+.home-2 {
+  margin-right: 0;
+  margin-left: 10%;
+}
+
+.works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.card-text {
+  color: azure;
+}
+
